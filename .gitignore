@@ -1,0 +1,8 @@
+/target/
+/node_modules/
+/web/node_modules/
+/textgrid-csv-labeler.exe
+*.pdb
+*.ilk
+*.exp
+*.lib

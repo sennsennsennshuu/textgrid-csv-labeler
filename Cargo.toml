@@ -1,0 +1,13 @@
+[package]
+name = "textgrid-csv-labeler"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.83"
+publish = false
+description = "TextGrid / CSV annotation labeler with the original offline web UI"
+
+[profile.release]
+opt-level = "s"
+panic = "abort"
+strip = "symbols"
+codegen-units = 1

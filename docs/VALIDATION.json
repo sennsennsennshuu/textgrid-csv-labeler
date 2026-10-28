@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-28T13:44:33.286Z",
+  "status": "passed",
+  "scope": "desktop-specific checks; no unrelated full-suite rerun",
+  "compiler": "rustc 1.95.0 (59807616e 2026-04-14)",
+  "platform": "Windows x64 native MSVC static CRT",
+  "pageSha256": "7398246de2deb957ac05853ff8c93c9051d22ed7b6dde8b77f333c38d1c15ce0",
+  "exeSha256": "1284b0e67bdfdb76151d91ba5a7b53f3410dafd95ba3f13925e31b54b35d565c",
+  "exeBytes": 568832,
+  "embeddedPageExact": true,
+  "windowsAppWindow": {
+    "title": "TextGrid标注工具",
+    "visibleWindowInspected": true,
+    "noAddressBarVisuallyVerified": true,
+    "closeExitedCode": 0
+  },
+  "browser": "Microsoft Edge 156.0.4314.50",
+  "interfacePixels": {
+    "comparedTo": "original release HTML",
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "widths": [
+      1440,
+      934,
+      390
+    ],
+    "exactMatch": true
+  },
+  "checks": [
+    {
+      "name": "内嵌正式网页逐字节一致",
+      "passed": true
+    },
+    {
+      "name": "仅回环、令牌路径且未知路径不可访问",
+      "passed": true
+    },
+    {
+      "name": "拒绝文件上传和非空生命周期请求",
+      "passed": true
+    },
+    {
+      "name": "真实浏览器安全上下文及原文件覆盖能力（按字段验证）",
+      "passed": true
+    },
+    {
+      "name": "通过真实主题按钮切换后六组视口像素与原网页完全一致",
+      "passed": true
+    },
+    {
+      "name": "真实 WAV 解码、频谱 Worker、TextGrid 与 CSV 独立配对",
+      "passed": true
+    },
+    {
+      "name": "ph_dur 重算、时间选区清除、Ctrl+Space 和实际指针回退",
+      "passed": true
+    },
+    {
+      "name": "批量覆盖所有修改来源、Ctrl+S 确认与 Ctrl+Shift+S 直接保存，无下载",
+      "passed": true
+    },
+    {
+      "name": "音素表检测与额外音素排除行为一致",
+      "passed": true
+    },
+    {
+      "name": "Tab 模式与滚轮横向/纵向缩放保持原行为",
+      "passed": true
+    },
+    {
+      "name": "实际桌面窗口关闭后 Rust 程序自动退出",
+      "passed": true,
+      "evidence": {
+        "nativeAppPid": 50780,
+        "exitCode": 0
+      }
+    }
+  ],
+  "validationHarness": {
+    "passed": true,
+    "stdout": "PASS desktop HTTP, exact UI, capabilities, themes, audio/DSP, CSV, duration, Ctrl+Space and save-all\n",
+    "saving": "Real serialization and save-all paths with in-memory picker/writable handle fixture; no user disk files overwritten"
+  },
+  "diagnosticCorrections": [
+    "The first capability assertion compared cross-realm object prototypes; rechecked each capability field.",
+    "The first screenshot comparison forced data-theme without redrawing canvas; rechecked using actual theme toggle buttons and all six screenshots matched."
+  ],
+  "userDataUploaded": false,
+  "localDeliverables": [
+    "textgrid-csv-labeler.exe"
+  ]
+}

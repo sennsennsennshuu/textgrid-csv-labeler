@@ -1,0 +1,4 @@
+* text=auto eol=lf
+ui/textgrid.html -text
+*.png -text
+*.exe -text
