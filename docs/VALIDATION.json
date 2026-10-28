@@ -94,7 +94,7 @@
   "finalNativeWindow": {
     "verified": true,
     "details": {
-      "Title": "TextGrid��ע����",
+      "Title": "TextGrid标注工具",
       "LocalAddress": "127.0.0.1",
       "Port": 38727,
       "Closed": true
