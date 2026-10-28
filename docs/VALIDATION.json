@@ -90,5 +90,38 @@
   "userDataUploaded": false,
   "localDeliverables": [
     "textgrid-csv-labeler.exe"
+  ],
+  "finalNativeWindow": {
+    "verified": true,
+    "details": {
+      "Title": "TextGrid��ע����",
+      "LocalAddress": "127.0.0.1",
+      "Port": 38727,
+      "Closed": true
+    },
+    "exitCode": 0
+  },
+  "release": {
+    "url": "https://github.com/sennsennsennshuu/textgrid-csv-labeler/releases/tag/v1.0.0",
+    "asset": "https://github.com/sennsennsennshuu/textgrid-csv-labeler/releases/download/v1.0.0/textgrid-csv-labeler.exe",
+    "assetCount": 1,
+    "downloadVerified": true,
+    "bytes": 568832,
+    "sha256": "1284b0e67bdfdb76151d91ba5a7b53f3410dafd95ba3f13925e31b54b35d565c"
+  },
+  "pe": {
+    "machine": "x64",
+    "subsystem": "Windows GUI",
+    "imports": [
+      "bcrypt.dll",
+      "USER32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "KERNEL32.dll",
+      "ntdll.dll",
+      "WS2_32.dll"
+    ]
+  },
+  "localTaskAddedPaths": [
+    "textgrid-csv-labeler.exe"
   ]
 }
